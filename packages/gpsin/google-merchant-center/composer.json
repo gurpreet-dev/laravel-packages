@@ -1,0 +1,29 @@
+{
+    "name": "gpsin/google-merchant-center",
+    "description": "A sample Laravel package to manage products on Google merchant center",
+    "type": "library",
+    "license": "MIT",
+    "authors": [{
+        "name": "Gurpreet Singh",
+        "email": "gurpreet778851@gmail.com"
+    }],
+    "autoload": {
+        "psr-4": {
+            "Gpsin\\GoogleMerchant\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "gpsin/google-merchant-center": "dev-main"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Gpsin\\GoogleMerchant\\GoogleMerchantServiceProvider"
+            ],
+            "aliases": {
+                "ProductApi":  "Gpsin\\GoogleMerchant\\Facades\\ProductApiService"
+            }
+        }
+    }
+}
