@@ -15,12 +15,12 @@ class ProductApiService extends Service{
                 ->get($this->apiUrl('products'));
     
             if ($response->successful()) {
-                return $response->json();
+                return $this->successResponse($response->json(), 'Product fetched!');
             } else {
-                throw new \Exception('API request failed: ' . $response->body());
+                return $this->errorResponse($response->json()['error']['message']);
             }
         } catch (\Exception $e) {
-            return ['error' => $e->getMessage()];
+            return $this->errorResponse($e->getMessage());
         }
     }
 
