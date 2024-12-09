@@ -1,6 +1,6 @@
 <?php
 
-namespace Gpsin\GoogleMerchant\Services;
+namespace Gptinker\GoogleMerchant\Services;
 
 use Illuminate\Support\Facades\Http;
 

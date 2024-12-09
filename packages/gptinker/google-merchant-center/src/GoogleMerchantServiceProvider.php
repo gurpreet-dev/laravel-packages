@@ -1,8 +1,8 @@
 <?php
 
-namespace Gpsin\GoogleMerchant;
+namespace Gptinker\GoogleMerchant;
 
-use Gpsin\GoogleMerchant\Services\ProductApiService;
+use Gptinker\GoogleMerchant\Services\ProductApiService;
 use Illuminate\Support\ServiceProvider;
 
 class GoogleMerchantServiceProvider extends ServiceProvider

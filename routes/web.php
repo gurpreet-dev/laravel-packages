@@ -1,6 +1,6 @@
 <?php
 
-use Gpsin\GoogleMerchant\Facades\ProductApi;
+use Gptinker\GoogleMerchant\Facades\ProductApi;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {

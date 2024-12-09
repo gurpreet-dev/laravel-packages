@@ -1,5 +1,5 @@
 {
-    "name": "gpsin/google-merchant-center",
+    "name": "gptinker/google-merchant-center",
     "description": "A sample Laravel package to manage products on Google merchant center",
     "type": "library",
     "license": "MIT",
@@ -9,20 +9,20 @@
     }],
     "autoload": {
         "psr-4": {
-            "Gpsin\\GoogleMerchant\\": "src/"
+            "Gptinker\\GoogleMerchant\\": "src/"
         }
     },
     "minimum-stability": "dev",
     "require": {
-        "gpsin/google-merchant-center": "dev-main"
+        "gptinker/google-merchant-center": "dev-main"
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Gpsin\\GoogleMerchant\\GoogleMerchantServiceProvider"
+                "Gptinker\\GoogleMerchant\\GoogleMerchantServiceProvider"
             ],
             "aliases": {
-                "ProductApi":  "Gpsin\\GoogleMerchant\\Facades\\ProductApiService"
+                "ProductApi":  "Gptinker\\GoogleMerchant\\Facades\\ProductApiService"
             }
         }
     }

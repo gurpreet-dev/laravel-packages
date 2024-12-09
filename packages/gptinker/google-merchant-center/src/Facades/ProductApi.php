@@ -1,6 +1,6 @@
 <?php
 
-namespace Gpsin\GoogleMerchant\Facades;
+namespace Gptinker\GoogleMerchant\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

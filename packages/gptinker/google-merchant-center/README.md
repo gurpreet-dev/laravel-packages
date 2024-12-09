@@ -20,7 +20,7 @@ storage/json/google-merchant-credentials.json
 ## Usage
 
 ```bash
-use Gpsin\GoogleMerchant\Facades\ProductApi;
+use Gptinker\GoogleMerchant\Facades\ProductApi;
 ```
 
 #### 1. Fetch Products
