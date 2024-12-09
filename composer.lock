@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b9719d74d11ca9899e40edec6ca82a45",
+    "content-hash": "a2266c5a8247165b3aca9107687f2b81",
     "packages": [
         {
             "name": "brick/math",
@@ -582,15 +582,15 @@
             "time": "2023-10-12T05:21:21+00:00"
         },
         {
-            "name": "gptinker/google-merchant-center",
+            "name": "gptinker/laravel-google-merchant",
             "version": "dev-main",
             "dist": {
                 "type": "path",
-                "url": "./packages/gptinker/google-merchant-center",
-                "reference": "d7cc8989d29d6206cacedc2c8f0ced0569c0d20c"
+                "url": "./packages/gptinker/laravel-google-merchant",
+                "reference": "20a697320d2293550c047ba0b9526a27e2842f3b"
             },
             "require": {
-                "gptinker/google-merchant-center": "dev-main"
+                "gptinker/laravel-google-merchant": "dev-main"
             },
             "type": "library",
             "extra": {
@@ -4140,8 +4140,8 @@
             "type": "library",
             "extra": {
                 "thanks": {
-                    "name": "symfony/polyfill",
-                    "url": "https://github.com/symfony/polyfill"
+                    "url": "https://github.com/symfony/polyfill",
+                    "name": "symfony/polyfill"
                 }
             },
             "autoload": {
