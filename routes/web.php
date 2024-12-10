@@ -4,7 +4,7 @@ use Gptinker\GoogleMerchant\Facades\ProductApi;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('welcome back');
 });
 
 Route::group(['prefix' => 'gcheck'], function () {
